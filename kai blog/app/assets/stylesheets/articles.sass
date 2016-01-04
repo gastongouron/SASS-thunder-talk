@@ -1,0 +1,74 @@
+// Place all the styles related to the articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+$myColor: blue
+$border: 1px solid blue
+$myBackground: red
+
+@mixin border-radius($radius)
+  -webkit-border-radius: $radius
+  -moz-border-radius:    $radius
+  -ms-border-radius:     $radius
+  border-radius:         $radius
+
+body
+  /*background: $myBackground*/
+  /*background: lighten($myBackground, 30%)*/
+
+#img
+  max-height: 3em
+  max-width: 3em
+  /*@include border-radius(50%)*/
+
+//ul
+  margin: 0
+  padding: 0
+  list-style: none
+
+//li
+  color: orange
+  display: inline-block
+
+//a
+  color: blue
+  display: block
+  padding: 6px 12px
+  text-decoration: none
+
+//h1
+  color: $myColor
+
+//nav
+  border: $border
+  ul
+    margin: 0
+    padding: 0
+    list-style: none
+
+  li
+    color: orange
+    display: inline-block
+
+  a
+    color: blue
+    display: block
+    padding: 6px 12px
+    text-decoration: none
+
+
+
+//.lists
+  padding: 10px
+  color: #333
+
+//.main-li
+  @extend .lists
+
+//.box 
+  @include border-radius(10px)
+
+//.square
+  background-color: $myColor
+  width: 200px
+  height: 200px
