@@ -1,2 +1,0 @@
-# SASS-thunder-talk
-
