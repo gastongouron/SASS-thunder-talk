@@ -14,3 +14,15 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+
+
+// var icon = document.querySelector("#icon")
+// var index = -1
+// var classnames = ["is-wrong", "is-right", "is-untouched", "is-current"]
+
+// var handleClick = function() {
+//   index = (index == 3) ? 0 : (index + 1)
+//   icon.className = classnames[index]
+// }
+
+// icon.addEventListener("click", handleClick)

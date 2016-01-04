@@ -3,23 +3,16 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 $myColor: blue
-$border: 1px solid blue
-$myBackground: red
-
-@mixin border-radius($radius)
-  -webkit-border-radius: $radius
-  -moz-border-radius:    $radius
-  -ms-border-radius:     $radius
-  border-radius:         $radius
+$myBorder: 1px solid blue
+$backgroundColor: mix(blue, white, 50%)
+$listColor: #000000
 
 body
-  /*background: $myBackground*/
-  /*background: lighten($myBackground, 30%)*/
-
-#img
-  max-height: 3em
-  max-width: 3em
-  /*@include border-radius(50%)*/
+  background: $backgroundColor
+  /*background: lighten($backgroundColor, 10%)*/
+          
+//h1
+  color: $myColor
 
 //ul
   margin: 0
@@ -27,8 +20,7 @@ body
   list-style: none
 
 //li
-  color: orange
-  display: inline-block
+  color: $listColor	
 
 //a
   color: blue
@@ -36,11 +28,21 @@ body
   padding: 6px 12px
   text-decoration: none
 
-//h1
-  color: $myColor
+=border-radius($radius)
+  -webkit-border-radius: $radius
+  -moz-border-radius:    $radius
+  -ms-border-radius:     $radius
+  border-radius:         $radius
+
+#img
+  height: 3em
+  width: 3em
+  /*+border-radius(50%)  */
 
 //nav
-  border: $border
+  border: $myBorder
+  background: #ffffff 
+
   ul
     margin: 0
     padding: 0
@@ -58,17 +60,25 @@ body
 
 
 
-//.lists
-  padding: 10px
-  color: #333
+//html
+  font-family: sans-serif
 
-//.main-li
-  @extend .lists
+//ul
+  font-family: serif
 
-//.box 
-  @include border-radius(10px)
+//@keyframes stretch
+  0%
+    width: 100px
+    height: 100px
+  30%
+    width: 200px
+    height: 200px
+  100%
+    width: 100px
+    height: 100px
 
-//.square
-  background-color: $myColor
-  width: 200px
-  height: 200px
+//#img:hover
+  animation-name: stretch
+  animation-duration: 1s
+  animation-delay: 0.3s
+
