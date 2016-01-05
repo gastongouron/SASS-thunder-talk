@@ -1,0 +1,13 @@
+@mixin border-radius($amount: 5px)
+    -moz-border-radius: $amount
+    -webkit-border-radius: $amount
+    -ms-border-radius: $amount
+    border-radius: $amount
+
+div
+    background-color: blue
+    height: 200px
+    width: 200px
+
+.box
+    @include border-radius
