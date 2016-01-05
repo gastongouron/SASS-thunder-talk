@@ -1,4 +1,6 @@
-# SASS & Maintainable CSS
+![Image of Yaktocat](https://github.com/gastongouron/SASS-thunder-talk/blob/master/images/sass.png)
+
+# Maintainable CSS
 
 ### A thundertalk about Syntactically Awesome Style Sheets by Paul & Kai!
 
