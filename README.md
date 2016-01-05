@@ -50,7 +50,7 @@ CSS describes how HTML elements are to be displayed on screen, paper, or in othe
 **LESS** Less is a CSS pre-processor, meaning that it extends the CSS language, adding features that allow variables, mixins, functions and many other techniques that allow you to make CSS that is more maintainable, themable and extendable. (Just like SASS but for JavaScript!)
 
 
-# Useful commands (to compile yourself)
+## Useful commands (to compile yourself)
 
 `Sass --watch sass:css`
 
