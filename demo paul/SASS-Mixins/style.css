@@ -1,0 +1,12 @@
+div {
+  background-color: blue;
+  height: 200px;
+  width: 200px; }
+
+.box {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px; }
+
+/*# sourceMappingURL=style.css.map */
