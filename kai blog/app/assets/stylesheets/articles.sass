@@ -17,14 +17,14 @@ $backgroundColor: mix(black, white, 50%)
   font-family: $myFont
   background: $backgroundColor
   background: lighten($backgroundColor, 20%)
-  @include shadow(0, 0px, 0px, rgba(0, 0, 0, 0.5), inset)
 
-#img
+#logo
   height: 3em
   width: 3em
   /*+border-radius(50%)  */
 
 //nav
+  /*@include shadow(0, 10px, 100px, rgba(0, 0, 0, 0.5), inset)*/
   border: $myBorder
   background: #ffffff 
   +border-radius(0.3em)
@@ -44,7 +44,9 @@ $backgroundColor: mix(black, white, 50%)
     padding: 6px 12px
     text-decoration: none
 
-//h1
+//.article
+  padding-top: 1em
+  font-size: 1.1em
   color: $myColor
 
 //ul
