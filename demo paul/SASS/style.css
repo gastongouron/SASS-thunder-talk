@@ -1,0 +1,43 @@
+html {
+  font-size: 10px;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-align: center; }
+
+body {
+  overflow-x: hidden; }
+
+ul {
+  list-style: none; }
+
+li {
+  width: 4em;
+  height: 4em;
+  margin: 0.4em;
+  margin-left: 0;
+  float: left;
+  background: #red;
+  background: #00aaff;
+  line-height: 4em;
+  color: white;
+  font-size: 2.5em; }
+
+li:hover {
+  opacity: 0.5; }
+
+li:nth-child(4n+4) {
+  margin-top: 13.6em;
+  margin-left: -4.4em;
+  background: #ff00aa; }
+
+li:nth-child(4n+3) {
+  margin-top: 9.2em;
+  margin-left: -4.4em;
+  background: #d500ff; }
+
+li:nth-child(4n+2) {
+  margin-top: 4.8em;
+  margin-left: -4.4em;
+  background: #5500ff; }
+
+/*# sourceMappingURL=style.css.map */

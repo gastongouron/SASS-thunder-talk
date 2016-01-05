@@ -51,6 +51,17 @@ CSS describes how HTML elements are to be displayed on screen, paper, or in othe
 
 **css.map** Many developers generate CSS style sheets using a CSS preprocessor, such as Sass, Less, or Stylus. Because the CSS files are generated, editing the CSS files directly is not as helpful. For preprocessors that support CSS source maps, DevTools lets you live-edit your preprocessor source files in the Sources panel, and view the results without having to leave DevTools or refresh the page. When you inspect an element whose styles are provided by a generated CSS file, the Elements panel displays a link to the original source file, not the generated .css file.
 
+[Treehouse cool blog on CSS maps](http://blog.teamtreehouse.com/introduction-source-maps)
+
+version – This property indicates which version of the source map spec the file adheres to.
+file – The name of the source map file.
+sources – An array of URLs for the original source files.
+sourceRoot – (optional) The URL which all of the files in the sources array will be resolved from.
+names – An array containing all of the variable and function names from your source files.
+mappings – A string of Base64 VLQs containing the actual code mappings. (This is where the magic happens.)
+
+
+
 ## Useful commands
 
 `Sass --watch sass:css`
