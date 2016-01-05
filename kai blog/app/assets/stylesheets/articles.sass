@@ -7,7 +7,7 @@ $backgroundColor: mix(black, white, 50%)
 @mixin shadow($top, $left, $blur, $color, $inset)
   -webkit-shadow: $top $left $blur $color #{$inset}
 
-=border-radius($radius)
+@mixin border-radius($radius)
   -webkit-border-radius: $radius
   -moz-border-radius:    $radius
   -ms-border-radius:     $radius
@@ -21,10 +21,9 @@ $backgroundColor: mix(black, white, 50%)
 #logo
   height: 3em
   width: 3em
-  /*+border-radius(50%)  */
+  /*@include border-radius(50%)  */
 
 //nav
-  /*@include shadow(0, 10px, 100px, rgba(0, 0, 0, 0.5), inset)*/
   border: $myBorder
   background: #ffffff 
   +border-radius(0.3em)
@@ -44,11 +43,6 @@ $backgroundColor: mix(black, white, 50%)
     padding: 6px 12px
     text-decoration: none
 
-//.article
-  padding-top: 1em
-  font-size: 1.1em
-  color: $myColor
-
 //ul
   margin: 0
   padding: 0
@@ -61,7 +55,7 @@ $backgroundColor: mix(black, white, 50%)
 //a
   color: blue
   display: block
-  padding: 6px 12px
+  padding: 6px 3px
   text-decoration: none
 
 
