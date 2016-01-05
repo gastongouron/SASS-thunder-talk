@@ -18,7 +18,6 @@ Sass provides higher level style syntax and takes your preprocessed SASS file an
 
 * SASS is a space sensitive way to write CSS and uses indentation instead of { } to delimit code blocks.
 * Everything that would be within { and } after a statement must be on a new line and indented one level deeper than the statement
-
 * Tabs and spaces are not the same even if they look the same!
 
 **Meaningfull features**
@@ -51,11 +50,11 @@ CSS describes how HTML elements are to be displayed on screen, paper, or in othe
 **LESS** Less is a CSS pre-processor, meaning that it extends the CSS language, adding features that allow variables, mixins, functions and many other techniques that allow you to make CSS that is more maintainable, themable and extendable. (Just like SASS but for JavaScript!)
 
 
-# Useful commands (to compile yourself)
+## Useful commands
 
-Sass --watch sass:css
+`Sass --watch sass:css`
 
-Sass --watch scss:css
+`Sass --watch scss:css`
 
 ## Useful links
 
