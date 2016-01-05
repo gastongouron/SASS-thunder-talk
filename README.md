@@ -2,7 +2,7 @@
 
 # Maintainable CSS
 
-### A thundertalk about Syntactically Awesome Style Sheets by Paul & Kai!
+### A thundertalk about Syntactically Awesome Style Sheets
 
 ## Contents
 
