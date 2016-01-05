@@ -60,11 +60,8 @@ CSS describes how HTML elements are to be displayed on screen, paper, or in othe
 ## Useful links
 
  [SASS official guide](http://sass-lang.com/guide)
-
  [Pens tagged with 'sass' on Codepen](http://codepen.io/tag/sass/)
-
  [Sass style guide from CSS-Tricks](https://css-tricks.com/sass-style-guide/)
-
  [Sass interactive examples](https://scotch.io/tutorials/getting-started-with-sass)
-
  [Official ROR integration of SASS](https://github.com/rails/sass-rails)
+ [A cool beginner guide](http://www.webdesignerdepot.com/2013/11/the-beginners-guide-to-sass/)
