@@ -34,9 +34,9 @@ Rails compile .sass files for you, all you need is to change .scss file estentio
 
 ## Demos
 
-Demo1 [SASS in a simple environment(Paul)](https://github.com/gastongouron/SASS-thunder-talk/tree/Pauls/pauls%20example)
+Demo1 [SASS in a simple environment(Paul)](https://github.com/gastongouron/SASS-thunder-talk/tree/master/demo%20paul)
 
-Demo2 [SASS in a Rails environment(Kai)](https://github.com/gastongouron/SASS-thunder-talk/tree/Pauls/kai%20pres)
+Demo2 [SASS in a Rails environment(Kai)](https://github.com/gastongouron/SASS-thunder-talk/tree/master/demo%20kai)
 
 ## Notes
 
