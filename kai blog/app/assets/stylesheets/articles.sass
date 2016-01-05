@@ -1,15 +1,49 @@
 $myColor: blue
+$myFont: Helvetica
 $myBorder: 1px solid blue
-$backgroundColor: red
-/*$backgroundColor: hsl(180, 50%, 50%)*/
-/*$backgroundColor: mix(black, white, 50%)*/
-
 $listColor: #000000
+$backgroundColor: mix(black, white, 50%)
+/*$backgroundColor: hsl(180, 50%, 50%)*/
+@mixin shadow($top, $left, $blur, $color, $inset)
+  -webkit-shadow: $top $left $blur $color #{$inset}
 
-body
+=border-radius($radius)
+  -webkit-border-radius: $radius
+  -moz-border-radius:    $radius
+  -ms-border-radius:     $radius
+  border-radius:         $radius
+
+//body
+  font-family: $myFont
   background: $backgroundColor
-  /*background: lighten($backgroundColor, 20%)*/
-          
+  background: lighten($backgroundColor, 20%)
+  @include shadow(0, 0px, 0px, rgba(0, 0, 0, 0.5), inset)
+
+#img
+  height: 3em
+  width: 3em
+  /*+border-radius(50%)  */
+
+//nav
+  border: $myBorder
+  background: #ffffff 
+  +border-radius(0.3em)
+
+  ul
+    margin: 0
+    padding: 0
+    list-style: none
+
+  li
+    color: $myColor
+    display: inline-block
+
+  a
+    color: blue
+    display: block
+    padding: 6px 12px
+    text-decoration: none
+
 //h1
   color: $myColor
 
@@ -20,6 +54,7 @@ body
 
 //li
   color: $listColor	
+  display: inline-block
 
 //a
   color: blue
@@ -27,63 +62,4 @@ body
   padding: 6px 12px
   text-decoration: none
 
-=border-radius($radius)
-  -webkit-border-radius: $radius
-  -moz-border-radius:    $radius
-  -ms-border-radius:     $radius
-  border-radius:         $radius
-
-#img
-  height: 3em
-  width: 3em
-  /*+border-radius(50%)  */
-
-//nav
-  border: $myBorder
-  background: #ffffff 
-
-  ul
-    margin: 0
-    padding: 0
-    list-style: none
-
-  li
-    color: orange
-    display: inline-block
-
-  a
-    color: blue
-    display: block
-    padding: 6px 12px
-    text-decoration: none
-
-
-//////////////////////////
-//html
-  font-family: sans-serif
-
-//ul
-  font-family: serif
-
-
-
-
-
-
-
-//@keyframes stretch
-  0%
-    width: 100px
-    height: 100px
-  30%
-    width: 200px
-    height: 200px
-  100%
-    width: 100px
-    height: 100px
-
-//#img:hover
-  animation-name: stretch
-  animation-duration: 1s
-  animation-delay: 0.3s
 
