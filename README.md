@@ -16,7 +16,6 @@ Sass provides higher level style syntax and takes your preprocessed SASS file an
 
 * SASS is a space sensitive way to write CSS and uses indentation instead of { } to delimit code blocks.
 * Everything that would be within { and } after a statement must be on a new line and indented one level deeper than the statement
-
 * Tabs and spaces are not the same even if they look the same!
 
 **Meaningfull features**
