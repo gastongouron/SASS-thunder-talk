@@ -51,8 +51,9 @@ CSS describes how HTML elements are to be displayed on screen, paper, or in othe
 
 # Useful commands (to compile yourself)
 
-Sass --watch sass:css
-Sass --watch scss:css
+`Sass --watch sass:css`
+
+`Sass --watch scss:css`
 
 ## Useful links
 
