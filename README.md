@@ -1,6 +1,6 @@
 ![Image of Yaktocat](https://github.com/gastongouron/SASS-thunder-talk/blob/master/images/sass.png)
 
-# Maintainable CSS
+# SASS & Maintainable CSS
 
 ### A thundertalk about Syntactically Awesome Style Sheets by Paul & Kai!
 
@@ -18,6 +18,7 @@ Sass provides higher level style syntax and takes your preprocessed SASS file an
 
 * SASS is a space sensitive way to write CSS and uses indentation instead of { } to delimit code blocks.
 * Everything that would be within { and } after a statement must be on a new line and indented one level deeper than the statement
+
 * Tabs and spaces are not the same even if they look the same!
 
 **Meaningfull features**
@@ -34,9 +35,9 @@ Rails compile .sass files for you, all you need is to change .scss file estentio
 
 ## Demos
 
-Demo1 [SASS in a simple environment(Paul)](http://en.wikipedia.org/wiki/Markdown)
+Demo1 [SASS in a simple environment(Paul)](https://github.com/gastongouron/SASS-thunder-talk/tree/Pauls/pauls%20example)
 
-Demo2 [SASS in a Rails environment(Kai)](http://en.wikipedia.org/wiki/Markdown)
+Demo2 [SASS in a Rails environment(Kai)](https://github.com/gastongouron/SASS-thunder-talk/tree/Pauls/kai%20pres)
 
 ## Notes
 
@@ -50,20 +51,20 @@ CSS describes how HTML elements are to be displayed on screen, paper, or in othe
 **LESS** Less is a CSS pre-processor, meaning that it extends the CSS language, adding features that allow variables, mixins, functions and many other techniques that allow you to make CSS that is more maintainable, themable and extendable. (Just like SASS but for JavaScript!)
 
 
-## Useful commands (to compile yourself)
+# Useful commands (to compile yourself)
 
-`Sass --watch sass:css`
+Sass --watch sass:css
 
-`Sass --watch scss:css`
+Sass --watch scss:css
 
 ## Useful links
 
-see [Wikipedia](http://en.wikipedia.org/wiki/Markdown)
+ [SASS official guide](http://sass-lang.com/guide)
 
-see [Wikipedia](http://en.wikipedia.org/wiki/Markdown)
+ [Pens tagged with 'sass' on Codepen](http://codepen.io/tag/sass/)
 
-see [Wikipedia](http://en.wikipedia.org/wiki/Markdown)
+ [Sass style guide from CSS-Tricks](https://css-tricks.com/sass-style-guide/)
 
+ [Sass interactive examples](https://scotch.io/tutorials/getting-started-with-sass)
 
-
-
+ [Official ROR integration of SASS](https://github.com/rails/sass-rails)
